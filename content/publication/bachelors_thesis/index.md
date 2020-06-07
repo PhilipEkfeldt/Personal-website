@@ -41,7 +41,7 @@ featured: true
 url_pdf: "https://www.diva-portal.org/smash/get/diva2:651323/FULLTEXT01.pdf"
 url_code:
 url_dataset:
-url_poster: "/static/pdfs/ScientificDemonstrationoftheUncertaintyPrinciple.pdf"
+url_poster: "/pdfs/ScientificDemonstrationoftheUncertaintyPrinciple.pdf"
 url_project:
 url_slides:
 url_source:
