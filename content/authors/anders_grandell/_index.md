@@ -1,41 +1,29 @@
 ---
 # Display name
-title: Philip Ekfeldt
+title: Anders Grandell
 
 # Username (this should match the folder name)
 authors:
-- admin
+- anders_grandell
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Data Scientist
+#role: Data Scientist
 
 # Organizations/Affiliations
-organizations:
-- name: New York University
-  url: ""
+#organizations:
+#- name: 
+#  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Data scientist interested in a lot of things, including computer vision, physics, golf, and history
+#bio: Data scientist interested in a lot of things, including computer vision, physics, golf, and history
 
-interests:
-- "Machine Learning
-  <ul>
-  <li>Computer vision</li>
-  <li>Natural language processing</li>
-  <li>Reinforcement learning</li>
-</ul>"
-- Physics
-- Golf
-- History
+#interests:
 
 education:
   courses:
-  - course: MSc in Data Science
-    institution: New York University
-    year: 2020
   - course: MSc in Engineering Physics
     institution: KTH Royal Institute of Technology
     year: 2015
@@ -50,21 +38,12 @@ education:
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/pekafel
-- icon: github
-  icon_pack: fab
-  link: https://github.com/PhilipEkfeldt
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/philipekfeldt/
+  link: https://twitter.com/AEGrandell
+#- icon: github
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: pdfs/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -72,4 +51,4 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-Recent grad from NYU with an MSc in Data Science. I have a background in both physics and consulting, and am currently in the process of transitioning to data science career. 
+
