@@ -1,7 +1,7 @@
 +++
 active = false
 date_format = "Jan 2006"
-headless = true
+headless = false
 subtitle = ""
 title = "Accomplish&shy;ments"
 weight = 50
