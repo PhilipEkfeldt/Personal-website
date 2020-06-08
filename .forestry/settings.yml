@@ -22,13 +22,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/talk
-  label: Events
-  create: all
-  match: "**/*"
-  templates:
-  - event
-- type: directory
   path: content/publication
   label: Publications
   create: all
@@ -38,6 +31,13 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: directory
+  path: content/talk
+  label: Events
+  create: all
+  match: "**/*"
+  templates:
+  - event
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
