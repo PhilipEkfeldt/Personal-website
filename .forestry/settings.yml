@@ -43,11 +43,6 @@ sections:
   match: "**/*"
   templates:
   - event
-- type: heading
-  label: Config
-- type: document
-  path: _default/menus.toml
-  label: Menus
 upload_dir: static
 public_path: ''
 front_matter_path: ''
