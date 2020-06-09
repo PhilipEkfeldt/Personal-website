@@ -14,6 +14,7 @@ image:
   caption: ''
   focal_point: Center
   preview_only: false
+featured: true
 
 ---
 If you didn't know already, I have a (pretty healthy) obsession with the game of golf. When I was younger it translated into spending whole days at the golf course over summer, and now it mostly means I listen to an unhealthy amount of golf podcasts where any normal person wouldn't get 99% of the references to professional golf. Additionally, I've become very interested in the data analytics in golf that have vastly been improved by advanced data collection over the last 15 years.
