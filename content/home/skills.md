@@ -1,50 +1,24 @@
 +++
-# A Skills section created with the Featurette widget.
-widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
-
-title = "Skills"
+active = false
+headless = false
 subtitle = ""
-
-# Showcase personal skills or business features.
-# 
-# Add/remove as many `[[feature]]` blocks below as you like.
-# 
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-
+title = "Skills"
+weight = 30
+widget = "featurette"
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = "90%"
-  
+description = "90%"
+icon = "r-project"
+icon_pack = "fab"
+name = "R"
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
-  
+description = "100%"
+icon = "chart-line"
+icon_pack = "fas"
+name = "Statistics"
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
-
-# Uncomment to use emoji icons.
-# [[feature]]
-#  icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
-
-# Uncomment to use custom SVG icons.
-# Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
-# [[feature]]
-#  icon = "beach-sunset"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
+description = "10%"
+icon = "camera-retro"
+icon_pack = "fas"
+name = "Photography"
 
 +++
