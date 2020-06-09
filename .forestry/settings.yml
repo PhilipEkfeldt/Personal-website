@@ -43,6 +43,8 @@ sections:
   match: "**/*"
   templates:
   - event
+- type: heading
+  label: Data
 - type: document
   path: config/_default/menus.toml
   label: Menus
