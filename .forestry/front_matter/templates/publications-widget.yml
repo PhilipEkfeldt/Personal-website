@@ -1,0 +1,77 @@
+---
+label: Publications widget
+hide_body: true
+fields:
+- type: text
+  name: widget
+  label: widget
+- type: boolean
+  name: headless
+  label: headless
+- type: boolean
+  name: active
+  label: active
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: field_group
+  name: content
+  label: content
+  fields:
+  - type: text
+    name: page_type
+    label: page_type
+  - type: number
+    name: count
+    label: count
+  - type: number
+    name: offset
+    label: offset
+  - type: text
+    name: order
+    label: order
+  - type: field_group
+    name: filters
+    label: filters
+    fields:
+    - type: text
+      name: tag
+      label: tag
+    - type: text
+      name: category
+      label: category
+    - type: text
+      name: publication_type
+      label: publication_type
+    - type: text
+      name: author
+      label: author
+    - type: boolean
+      name: exclude_featured
+      label: exclude_featured
+- type: field_group
+  name: design
+  label: design
+  fields:
+  - type: number
+    name: view
+    label: view
+  - type: field_group
+    name: background
+    label: background
+- type: field_group
+  name: advanced
+  label: advanced
+  fields:
+  - type: text
+    name: css_style
+    label: css_style
+  - type: text
+    name: css_class
+    label: css_class
