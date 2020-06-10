@@ -1,0 +1,38 @@
+---
+label: Page
+hide_body: true
+fields:
+- type: text
+  name: widget
+  label: widget
+- type: boolean
+  name: headless
+  label: headless
+- type: boolean
+  name: active
+  label: active
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: field_group_list
+  name: feature
+  label: feature
+  fields:
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: icon_pack
+    label: icon_pack
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: description
+    label: description
