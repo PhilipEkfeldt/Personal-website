@@ -278,7 +278,7 @@ plugins_js  = []
 ## Marketing
 ############################
 [marketing]
-  google_analytics = ""
+  google_analytics = "UA-167953891-1"
   google_tag_manager = ""
 
 ############################
@@ -286,4 +286,4 @@ plugins_js  = []
 ############################
 [cms]
   # See https://sourcethemes.com/academic/docs/install/#install-with-web-browser
-  netlify_cms = true
+  netlify_cms = false
