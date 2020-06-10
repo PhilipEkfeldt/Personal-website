@@ -3,15 +3,6 @@ label: Page
 hide_body: true
 display_field: title
 fields:
-- type: boolean
-  name: active
-  label: active
-- type: boolean
-  name: headless
-  label: headless
-- type: text
-  name: subtitle
-  label: subtitle
 - type: text
   name: title
   label: title
@@ -21,6 +12,15 @@ fields:
 - type: text
   name: widget
   label: widget
+- type: text
+  name: subtitle
+  label: subtitle
+- type: boolean
+  name: active
+  label: active
+- type: boolean
+  name: headless
+  label: headless
 - type: field_group_list
   name: feature
   label: feature
