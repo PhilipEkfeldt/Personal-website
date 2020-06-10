@@ -1,25 +1,26 @@
 ---
 label: Page
 hide_body: true
+display_field: title
 fields:
-- type: text
-  name: widget
-  label: widget
-- type: boolean
-  name: headless
-  label: headless
 - type: boolean
   name: active
   label: active
+- type: boolean
+  name: headless
+  label: headless
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: title
+  label: title
 - type: number
   name: weight
   label: weight
 - type: text
-  name: title
-  label: title
-- type: text
-  name: subtitle
-  label: subtitle
+  name: widget
+  label: widget
 - type: field_group_list
   name: feature
   label: feature
