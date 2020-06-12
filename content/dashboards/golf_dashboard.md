@@ -17,4 +17,4 @@ This dashboard allows you to look at PGA Tour players approach shot performance 
 
 ## Dashboard
 <br>
-<iframe src="https://agile-falls-97193.herokuapp.com/" margin-left="-25%" style="background-color: #FFFFFF" height="800px" width="150%">
+<iframe src="https://agile-falls-97193.herokuapp.com/" style= "margin-left:-25%; background-color: #FFFFFF; height: 800px; width: 150%;">
