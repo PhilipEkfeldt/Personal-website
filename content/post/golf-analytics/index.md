@@ -46,16 +46,16 @@ With enough data (read, A LOT) it might be possible to quantify all of these con
 
 What he then did was collect data, lots of data. In his book he describes manual methods he used using amateur players, but the goldmine he had came from the PGA Tour: ShotLink. In 2004, the PGA Tour introduced this new system. At most tournaments in their schedule, it would track the exact position of each shot a player made, including distance to the hole and the lie. With this, Broadie went to work. For each distance to the hole and lie combination, he calculated how many shots did it take for a PGA Tour player on average to get the ball in the hole. With this data in hand, he could create a table:
 
-| Distance (yards) | Lie | Avg shots |
-| --- | --- | --- |
-| 150 | Fairway | 3.0 |
-| 150 | Rough | 3.2 |
-| 450 | Tee | 4.2 |
+| Distance (yards) | Lie     | Avg shots |
+| ---------------- | ------- | --------- |
+| 150              | Fairway | 3.0       |
+| 150              | Rough   | 3.2       |
+| 450              | Tee     | 4.2       |
 
 With the example data above, how do we calculate the performance of a shot? Let's say a player is hitting his drive on a 450 yard hole. He hits his drive 300 yards, and it leaves him 150 yards to the hole. If he hit the fairway, it means that his avg shots. left from his positions went from 4.2 to 3.0. Since he used 1 shot to get there, his shot was 4.2 - 3.0 - 1 = 0.2 shots better than average. Had he instead hit it to the rough, his shot would have been 4.2 - 3.2 - 1 = 0.0 compared to average, thus average. With this information in hand, Broadie could create shot categories (drive, approach, pitch/chip, and putt) and add up players performance for all shots in a round to gauge what the player did well or not. For example, if a player's round score was 5 shots better than average for that round, it could be because they putted 5 shots better than average, or because their approach shots were 5 shots better than average, or something in between. To account for course difficulty and the skill of all player's in the tournament, each category's score was compared to the average of all player's score for that round.
 
 This analysis gave players and fans a lot more insights into what a player was doing well, and what they were not doing well. Before this, the fact that someone was a good putter was based more on feeling than anything else, but with this data in hand, it could actually be quantitatively shown.
 
-I made my own analysis of a more granular case using 2018 PGA Tour data [here](https://github.com/PhilipEkfeldt/Golf-Analysis). Sadly the PGA Tour data is no longer available for academics so this will not be possible anymore.
+I made my own analysis of a more granular case using 2018 PGA Tour data [here](https://github.com/PhilipEkfeldt/Golf-Analysis). Sadly the PGA Tour data is no longer available for academics so this will not be possible anymore. The dashboard I created can also be found [here](/dashboards/golf_dashboard/).
 
 Additionally, if you are interested, I would really recommend that you checkout [Data Golf](https://datagolf.org/) as well. They do a lot of interesting analysis as well, usually on a slightly more macro level.
