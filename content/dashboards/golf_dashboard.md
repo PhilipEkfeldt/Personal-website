@@ -5,8 +5,10 @@ authors:
 - admin
 tags:
 - golf
+- dashboard
 categories:
 - golf
+- dashboard
 date: 2020-06-11T23:45:44.000-04:00
 commentable: false
 summary: Shotlink approach shot dashboard for the 2017-2018 PGA Tour season
